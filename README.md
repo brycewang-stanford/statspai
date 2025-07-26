@@ -2,9 +2,9 @@
 
 [![PyPI version](https://badge.fury.io/py/StatsPAI.svg)](https://badge.fury.io/py/StatsPAI)
 [![Python versions](https://img.shields.io/pypi/pyversions/StatsPAI.svg)](https://pypi.org/project/StatsPAI/)
-[![License](https://img.shields.io/github/license/brycewang-stanford/pyEconometrics.svg)](https://github.com/brycewang-stanford/pyEconometrics/blob/main/LICENSE)
-[![Build Status](https://github.com/brycewang-stanford/pyEconometrics/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/brycewang-stanford/pyEconometrics/actions)
-[![codecov](https://codecov.io/gh/brycewang-stanford/pyEconometrics/branch/main/graph/badge.svg)](https://codecov.io/gh/brycewang-stanford/pyEconometrics)
+[![License](https://img.shields.io/github/license/brycewang-stanford/statspai.svg)](https://github.com/brycewang-stanford/statspai/blob/main/LICENSE)
+[![Build Status](https://github.com/brycewang-stanford/statspai/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/brycewang-stanford/statspai/actions)
+[![codecov](https://codecov.io/gh/brycewang-stanford/statspai/branch/main/graph/badge.svg)](https://codecov.io/gh/brycewang-stanford/statspai)
 
 **The AI-powered Statistics & Econometrics Toolkit for Python**
 
@@ -37,7 +37,7 @@ StatsPAI bridges the gap between user-friendly syntax and powerful econometric a
 pip install StatsPAI
 
 # Development version
-pip install git+https://github.com/brycewang-stanford/pyEconometrics.git
+pip install git+https://github.com/brycewang-stanford/statspai.git
 ```
 
 ### Requirements
@@ -155,8 +155,8 @@ We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for deta
 ### Development Setup
 ```bash
 # Clone repository
-git clone https://github.com/brycewang-stanford/pyEconometrics.git
-cd pyEconometrics
+git clone https://github.com/brycewang-stanford/statspai.git
+cd statspai
 
 # Install in development mode
 pip install -e ".[dev]"
@@ -193,7 +193,7 @@ If you use StatsPAI in your research, please cite:
   title={StatsPAI: The AI-powered Statistics & Econometrics Toolkit for Python},
   author={Wang, Bryce},
   year={2024},
-  url={https://github.com/brycewang-stanford/pyEconometrics},
+  url={https://github.com/brycewang-stanford/statspai},
   version={0.1.0}
 }
 ```
