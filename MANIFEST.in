@@ -1,0 +1,44 @@
+# Include essential files for PyPI distribution
+include LICENSE
+include README.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+include pyproject.toml
+
+# Include package source code
+recursive-include src *.py
+
+# Include tests
+recursive-include tests *.py
+
+# Exclude internal documentation and development files
+exclude PROJECT_SUMMARY.md
+exclude FINAL_PROJECT_STATUS.md
+exclude RELEASE_CHECKLIST.md
+exclude build_and_release.sh
+exclude Makefile
+exclude *.sh
+
+# Exclude development directories (not needed for users)
+exclude docs/
+recursive-exclude docs *
+exclude examples/
+recursive-exclude examples *
+exclude .github/
+recursive-exclude .github *
+
+# Exclude build and cache files
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+exclude .git*
+exclude .pytest_cache
+exclude .mypy_cache
+exclude htmlcov
+exclude .coverage
+exclude .DS_Store
+exclude *.egg-info
+exclude build/
+exclude dist/
+exclude .venv/
+exclude venv/
+exclude .pre-commit-config.yaml
