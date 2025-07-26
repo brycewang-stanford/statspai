@@ -10,7 +10,7 @@
 
 StatsPAI bridges the gap between user-friendly syntax and powerful econometric analysis, making advanced techniques accessible to researchers and practitioners.
 
-## 🚀 Features
+##  Features
 
 ### Core Econometric Methods
 - **Linear Regression**: OLS, WLS with robust standard errors
@@ -30,7 +30,7 @@ StatsPAI bridges the gap between user-friendly syntax and powerful econometric a
 - **Well Tested**: Comprehensive test suite ensuring reliability
 - **Type Hints**: Full type annotation for better development experience
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Latest stable version
@@ -46,7 +46,7 @@ pip install git+https://github.com/brycewang-stanford/pyEconometrics.git
 - scikit-learn (for Causal Forest)
 - openpyxl (for Excel export)
 
-## 🏁 Quick Start
+##  Quick Start
 
 ### Basic Regression Analysis
 ```python
@@ -106,7 +106,7 @@ cf_summary = cf.summary()
 outreg2([cf_summary], 'causal_forest_results.xlsx')
 ```
 
-## 📊 Advanced Usage
+##  Advanced Usage
 
 ### Robust Standard Errors
 ```python
@@ -141,14 +141,14 @@ outreg2(results, 'output.xlsx',
         star_levels=[0.01, 0.05, 0.1])
 ```
 
-## 📚 Documentation
+##  Documentation
 
 - **[User Guide](docs/user_guide.md)**: Comprehensive tutorials and examples
 - **[API Reference](docs/api_reference.md)**: Detailed function documentation  
 - **[Theory Guide](docs/theory_guide.md)**: Mathematical foundations
 - **[Examples](examples/)**: Jupyter notebooks with real-world applications
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -168,23 +168,23 @@ pre-commit install
 pytest
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Inspired by Stata's `outreg2` command for output formatting
 - Causal Forest implementation based on Wager & Athey (2018)
 - Built on the shoulders of NumPy, SciPy, and scikit-learn
 
-## 📞 Contact
+##  Contact
 
 - **Author**: Bryce Wang
 - **Email**: brycewang2018@gmail.com
 - **GitHub**: [brycewang-stanford](https://github.com/brycewang-stanford)
 
-## 📈 Citation
+##  Citation
 
 If you use StatsPAI in your research, please cite:
 
