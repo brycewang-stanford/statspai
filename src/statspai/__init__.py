@@ -1,5 +1,5 @@
 """
-pyEconometrics: A comprehensive econometrics package for Python
+StatsPAI: The AI-powered Statistics & Econometrics Toolkit for Python
 
 This package provides tools for econometric analysis including:
 - OLS regression with robust standard errors
@@ -9,7 +9,7 @@ This package provides tools for econometric analysis including:
 - Publication-ready output formatting
 
 Basic usage:
->>> import pyeconometrics as pe
+>>> import statspai as sp
 >>> 
 >>> # Traditional regression
 >>> result = pe.regress("y ~ x1 + x2", data=df)
@@ -29,8 +29,8 @@ from .causal.causal_forest import CausalForest, causal_forest
 from .output.outreg2 import OutReg2, outreg2
 
 __version__ = "0.1.0"
-__author__ = "pyEconometrics Team"
-__email__ = "contact@pyeconometrics.org"
+__author__ = "StatsPAI Team"
+__email__ = "contact@statspai.org"
 
 __all__ = [
     "regress",

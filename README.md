@@ -1,12 +1,14 @@
-# pyEconometrics
+# StatsPAI
 
-[![PyPI version](https://badge.fury.io/py/pyEconometrics.svg)](https://badge.fury.io/py/pyEconometrics)
-[![Python versions](https://img.shields.io/pypi/pyversions/pyEconometrics.svg)](https://pypi.org/project/pyEconometrics/)
+[![PyPI version](https://badge.fury.io/py/StatsPAI.svg)](https://badge.fury.io/py/StatsPAI)
+[![Python versions](https://img.shields.io/pypi/pyversions/StatsPAI.svg)](https://pypi.org/project/StatsPAI/)
 [![License](https://img.shields.io/github/license/brycewang-stanford/pyEconometrics.svg)](https://github.com/brycewang-stanford/pyEconometrics/blob/main/LICENSE)
 [![Build Status](https://github.com/brycewang-stanford/pyEconometrics/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/brycewang-stanford/pyEconometrics/actions)
 [![codecov](https://codecov.io/gh/brycewang-stanford/pyEconometrics/branch/main/graph/badge.svg)](https://codecov.io/gh/brycewang-stanford/pyEconometrics)
 
-A comprehensive econometrics package for Python, inspired by Stata's simplicity and R's flexibility. pyEconometrics bridges the gap between user-friendly syntax and powerful econometric analysis, making advanced techniques accessible to researchers and practitioners.
+**The AI-powered Statistics & Econometrics Toolkit for Python**
+
+StatsPAI bridges the gap between user-friendly syntax and powerful econometric analysis, making advanced techniques accessible to researchers and practitioners.
 
 ## 🚀 Features
 
@@ -32,7 +34,7 @@ A comprehensive econometrics package for Python, inspired by Stata's simplicity 
 
 ```bash
 # Latest stable version
-pip install pyEconometrics
+pip install StatsPAI
 
 # Development version
 pip install git+https://github.com/brycewang-stanford/pyEconometrics.git
@@ -49,7 +51,7 @@ pip install git+https://github.com/brycewang-stanford/pyEconometrics.git
 ### Basic Regression Analysis
 ```python
 import pandas as pd
-from pyeconometrics import reg, outreg2
+from statspai import reg, outreg2
 
 # Load your data
 df = pd.read_csv('data.csv')
@@ -84,7 +86,7 @@ fe_result = reg('y ~ x1 + x2', data=df,
 
 ### Causal Forest for Heterogeneous Treatment Effects
 ```python
-from pyeconometrics import CausalForest
+from statspai import CausalForest
 
 # Initialize Causal Forest
 cf = CausalForest(n_estimators=100, random_state=42)
@@ -117,7 +119,7 @@ result = reg('y ~ x1 + x2', data=df, cluster='firm_id')
 
 ### Model Comparison
 ```python
-from pyeconometrics import compare_models
+from statspai import compare_models
 
 models = [
     reg('y ~ x1', data=df),
@@ -184,11 +186,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📈 Citation
 
-If you use pyEconometrics in your research, please cite:
+If you use StatsPAI in your research, please cite:
 
 ```bibtex
-@software{wang2024pyeconometrics,
-  title={pyEconometrics: A Comprehensive Econometrics Package for Python},
+@software{wang2024statspai,
+  title={StatsPAI: The AI-powered Statistics & Econometrics Toolkit for Python},
   author={Wang, Bryce},
   year={2024},
   url={https://github.com/brycewang-stanford/pyEconometrics},

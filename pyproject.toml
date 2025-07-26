@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyEconometrics"
+name = "StatsPAI"
 version = "0.1.0"
-description = "A comprehensive econometrics library for Python, integrating the best features of Stata and R"
+description = "The AI-powered Statistics & Econometrics Toolkit for Python"
 readme = "README.md"
 license = "MIT"
 authors = [
@@ -63,10 +63,10 @@ plotting = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/brycewang/pyEconometrics"
-Documentation = "https://pyeconometrics.readthedocs.io/"
-Repository = "https://github.com/brycewang/pyEconometrics"
-"Bug Reports" = "https://github.com/brycewang/pyEconometrics/issues"
+Homepage = "https://github.com/brycewang-stanford/pyEconometrics"
+Documentation = "https://statspai.readthedocs.io/"
+Repository = "https://github.com/brycewang-stanford/pyEconometrics"
+"Bug Reports" = "https://github.com/brycewang-stanford/pyEconometrics/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -83,7 +83,7 @@ testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
-addopts = "--cov=pyeconometrics --cov-report=html --cov-report=term-missing"
+addopts = "--cov=statspai --cov-report=html --cov-report=term-missing"
 
 [tool.mypy]
 python_version = "3.8"

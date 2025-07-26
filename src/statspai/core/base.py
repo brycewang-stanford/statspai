@@ -1,5 +1,5 @@
 """
-Core base classes and interfaces for pyEconometrics
+Core base classes and interfaces for StatsPAI
 """
 
 from abc import ABC, abstractmethod

@@ -15,7 +15,7 @@ The implementation is inspired by and partially based on the EconML library:
 Key features:
 - Honest random forests for unbiased treatment effect estimation
 - Bootstrap confidence intervals
-- Compatible with pyEconometrics outreg2 export functionality
+- Compatible with StatsPAI outreg2 export functionality
 - Both formula and direct array interfaces
 """
 
@@ -94,13 +94,13 @@ class CausalForest(BaseModel):
     Notes
     -----
     This implementation is inspired by the EconML library's CausalForestDML
-    but adapted to fit the pyEconometrics architecture and interface.
+    but adapted to fit the StatsPAI architecture and interface.
     
     Examples
     --------
     >>> import numpy as np
     >>> import pandas as pd
-    >>> from pyeconometrics.causal import CausalForest
+    >>> from statspai.causal import CausalForest
     >>> 
     >>> # Generate sample data
     >>> np.random.seed(42)
@@ -758,7 +758,7 @@ def causal_forest(
     --------
     >>> import pandas as pd
     >>> import numpy as np
-    >>> from pyeconometrics.causal import causal_forest
+    >>> from statspai.causal import causal_forest
     >>> 
     >>> # Generate sample data
     >>> np.random.seed(42)

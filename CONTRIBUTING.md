@@ -1,6 +1,6 @@
-# Contributing to pyEconometrics
+# Contributing to StatsPAI
 
-We welcome contributions to pyEconometrics! This document provides guidelines for contributing to the project.
+We welcome contributions to StatsPAI! This document provides guidelines for contributing to the project.
 
 ## 🤝 How to Contribute
 
@@ -16,7 +16,7 @@ We welcome contributions to pyEconometrics! This document provides guidelines fo
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/brycewang2018/pyEconometrics.git
+   git clone https://github.com/brycewang-stanford/pyEconometrics.git
    cd pyEconometrics
    ```
 
@@ -71,7 +71,7 @@ We welcome contributions to pyEconometrics! This document provides guidelines fo
    pytest
    
    # Run with coverage
-   pytest --cov=src/pyeconometrics
+   pytest --cov=src/statspai
    
    # Run specific tests
    pytest tests/test_your_feature.py -v
@@ -122,7 +122,7 @@ git commit -m "docs(readme): update installation instructions"
 
 ### Package Organization
 ```
-src/pyeconometrics/
+src/statspai/
 ├── __init__.py          # Main API exports
 ├── core/                # Core regression functionality
 │   ├── __init__.py
@@ -198,8 +198,8 @@ src/pyeconometrics/
 
 ## 📄 License
 
-By contributing to pyEconometrics, you agree that your contributions will be licensed under the MIT License.
+By contributing to StatsPAI, you agree that your contributions will be licensed under the MIT License.
 
 ---
 
-Thank you for contributing to pyEconometrics! 🎉
+Thank you for contributing to StatsPAI! 🎉

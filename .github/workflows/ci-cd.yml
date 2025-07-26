@@ -54,7 +54,7 @@ jobs:
 
     - name: Test with pytest
       run: |
-        pytest tests/ -v --cov=src/pyeconometrics --cov-report=xml
+        pytest tests/ -v --cov=src/statspai --cov-report=xml
 
     - name: Upload coverage to Codecov
       if: matrix.os == 'ubuntu-latest' && matrix.python-version == '3.10'
