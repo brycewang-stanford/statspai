@@ -2,9 +2,9 @@
 
 [![PyPI version](https://badge.fury.io/py/pyEconometrics.svg)](https://badge.fury.io/py/pyEconometrics)
 [![Python versions](https://img.shields.io/pypi/pyversions/pyEconometrics.svg)](https://pypi.org/project/pyEconometrics/)
-[![License](https://img.shields.io/github/license/brycewang2018/pyEconometrics.svg)](https://github.com/brycewang2018/pyEconometrics/blob/main/LICENSE)
-[![Build Status](https://github.com/brycewang2018/pyEconometrics/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/brycewang2018/pyEconometrics/actions)
-[![codecov](https://codecov.io/gh/brycewang2018/pyEconometrics/branch/main/graph/badge.svg)](https://codecov.io/gh/brycewang2018/pyEconometrics)
+[![License](https://img.shields.io/github/license/brycewang-stanford/pyEconometrics.svg)](https://github.com/brycewang-stanford/pyEconometrics/blob/main/LICENSE)
+[![Build Status](https://github.com/brycewang-stanford/pyEconometrics/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/brycewang-stanford/pyEconometrics/actions)
+[![codecov](https://codecov.io/gh/brycewang-stanford/pyEconometrics/branch/main/graph/badge.svg)](https://codecov.io/gh/brycewang-stanford/pyEconometrics)
 
 A comprehensive econometrics package for Python, inspired by Stata's simplicity and R's flexibility. pyEconometrics bridges the gap between user-friendly syntax and powerful econometric analysis, making advanced techniques accessible to researchers and practitioners.
 
@@ -35,7 +35,7 @@ A comprehensive econometrics package for Python, inspired by Stata's simplicity 
 pip install pyEconometrics
 
 # Development version
-pip install git+https://github.com/brycewang2018/pyEconometrics.git
+pip install git+https://github.com/brycewang-stanford/pyEconometrics.git
 ```
 
 ### Requirements
@@ -153,7 +153,7 @@ We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for deta
 ### Development Setup
 ```bash
 # Clone repository
-git clone https://github.com/brycewang2018/pyEconometrics.git
+git clone https://github.com/brycewang-stanford/pyEconometrics.git
 cd pyEconometrics
 
 # Install in development mode
@@ -180,7 +180,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Author**: Bryce Wang
 - **Email**: brycewang2018@gmail.com
-- **GitHub**: [brycewang2018](https://github.com/brycewang2018)
+- **GitHub**: [brycewang-stanford](https://github.com/brycewang-stanford)
 
 ## 📈 Citation
 
@@ -191,7 +191,7 @@ If you use pyEconometrics in your research, please cite:
   title={pyEconometrics: A Comprehensive Econometrics Package for Python},
   author={Wang, Bryce},
   year={2024},
-  url={https://github.com/brycewang2018/pyEconometrics},
+  url={https://github.com/brycewang-stanford/pyEconometrics},
   version={0.1.0}
 }
 ```
